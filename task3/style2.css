@@ -1,0 +1,51 @@
+body {
+    background: #eee;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ddd;
+    padding: 20px;
+}
+
+.logo {
+    background: #ccc;
+    padding: 15px 25px;
+    border-radius: 5px;
+}
+
+.menu a {
+    margin-left: 20px;
+    color: #333;
+    font-weight: bold;
+}
+
+.main {
+    display: flex;
+    gap: 20px;
+    margin: 20px;
+}
+
+.content {
+    flex: 3;
+    background: #ccc;
+    padding: 20px;
+    height: 400px;
+}
+
+.sidebar {
+    flex: 1;
+    background: #ccc;
+    padding: 20px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ddd;
+    padding: 20px;
+    margin-top: 20px;
+}
