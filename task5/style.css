@@ -1,0 +1,49 @@
+body {
+    font-family: Arial;
+    background-color: #f2f2f2;
+}
+
+.container {
+    width: 350px;
+    background: white;
+    padding: 20px;
+    margin: 100px auto;
+    border-radius: 8px;
+}
+
+h2 {
+    text-align: center;
+}
+
+input {
+    width: 70%;
+    padding: 5px;
+}
+
+button {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.done {
+    background-color: green;
+    color: white;
+    border: none;
+}
+
+.delete {
+    background-color: red;
+    color: white;
+    border: none;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
